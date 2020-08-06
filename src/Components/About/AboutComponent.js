@@ -21,7 +21,7 @@ class AboutComponent extends React.Component{
                         
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Biography</h5>                                    
+                                <h5 class="card-title">Biography: Sam Hughes</h5>                                    
                                 <p class="card-text">{this.props.data.bio}</p>
                                 <h5 class="card-title">Transferable Skills</h5>  
                                 {                                    
