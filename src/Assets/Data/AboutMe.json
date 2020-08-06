@@ -1,0 +1,27 @@
+{
+    "bio":"I am a recent 2020 graduate from City, University of London that has completed my bachelor's degree in Computer Science. I have experience with the programming languages Python, Java and C++ as well as knowledge with SQLite and UML. I have completed multiple projects from past coursework to independent personal projects which can be found on my GitHub and I am very passionate about computer science having academically studied the subject since 2014 and I’m always looking to learn more.",
+    "transferableSkills":[
+            ["Problem Solving", "For my individual project I worked on a problem to determine if certain ship designs would be safe in the event of flooding which was to be solved using a physics engine. The simulation was node based so accurate volume had to be calculated to determine physical properties such as buoyancy, to solve this I made a system to determine what the volume of a particular node by analysing each of its neighbours. As a result, I managed to get a relatively accurate buoyancy system working for each node which would allow the ship to be flooded."],
+            ["Communication and Team Working", "Whilst working on the team project in the second year I took the role as the lead programmer, I had to actively communicate with the rest of my team and the other programmers to divide work and help others as needed, to do this we set up a slack chat to communicate as well as setting up a GitHub repository for the project. As a result, we managed to achieve 76% overall for the module."],
+            ["Time Management", "For my individual project I worked on a problem to determine if certain ship designs would be safe in the event of flooding which was to be solved using a physics engine. The simulation was node based so accurate volume had to be calculated to determine physical properties such as buoyancy, to solve this I made a system to determine what the volume of a particular node by analysing each of its neighbours. As a result, I managed to get a relatively accurate buoyancy system working for each node which would allow the ship to be flooded."]
+    ],
+    "technicalSkills":[
+        {
+            "Languages":["C++", "Java", "Javascript", "Python", "Haskell"],
+            "Libraries": ["React", "OpenGL", "GLM", "Swing"],
+            "Tools": ["Visual Studio", "SQLite", "Visual Paradigm", "Netbeans", "GIT"]
+        }
+    ],
+    "qualifications":[
+        {
+            "Degree":[["Bsc Computer Science", "1st Class"]],
+            "ALevel": [["Computer Science", "A"], ["Physics", "B"], ["Maths", "B"]]
+        }
+    ],
+    "achievements":[
+        {
+            "achievements": ["3rd Place for Best Graphics in 3D Graphics Module","Outstanding Part 1 Student Award (Technical Stream) from City, University of London for 'achieving an exceptionally high overall mark across their first year in the department'"]
+             
+        }
+    ]
+}

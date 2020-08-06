@@ -1,0 +1,199 @@
+{
+    "projects":[    
+        {
+            "title": "Ship Flooding Physics Simulation",
+            "date": "2019",
+            "thumbnail": "https://i.imgur.com/bhoK9Rt.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OpenGL", "GLFW", "GLM"],
+            "about": "This project was amde for my final year project at university. The goal was to create a 3D physics simulation which could be used to determine whether certain configurations of ship bulkheads are safer than others. Specifically, whether longitudinal bulkheads are safe to use on ships. The graphics are made using OpenGL.",
+            "github": "https://github.com/sambolinski/FloodingSimulator"
+        },
+        {
+            "title": "OpenGL Racing Game",
+            "date": "2020",
+            "thumbnail": "https://i.imgur.com/3oTGuXj.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OpenGL", "GLM"],
+            "about": "This project was coursework for my 3D Graphics OpenGL module in my third year. We had to create a racing game which includes multiple primitives, 3D model imports, programatically generated tracks, multiple lights as well as instanced rendering and post-processing.",
+            "github": "https://github.com/sambolinski/FloodingSimulator"
+        },
+        {
+            "title": "Pixel Mandelbrot",
+            "date": "2020",
+            "thumbnail": "https://i.imgur.com/LV89vsr.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OLCPixelGameEngine"],
+            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows the mandelbrot set.",
+            "github": ""
+        },
+        {
+            "title": "Pixel Ray Marching",
+            "date": "2020",
+            "thumbnail": "https://i.imgur.com/26C0SP8.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OLCPixelGameEngine"],
+            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows a pixel ray marching renderer.",
+            "github": ""
+        },
+        {
+            "title": "Garage Management System",
+            "date": "2019",
+            "thumbnail": "https://i.imgur.com/yY4eV2Q.png",
+            "language": "Java",
+            "video": "",
+            "libraries": ["Swing"],
+            "about": "This project was created for a team project in my second year of university. The software is a management system for a garage which includes features for users such as a receptionist and a mechanic. The receptionist can take jobs and the mechanic can work on the job. There are other featuers such as automatic invoice generation as well as automatic stock renewal. I did the main programming work for this project.",
+            "github": "https://github.com/Nikolnp/GARITS"
+        },
+        {
+            "title": "2D planetary Orbit Simulator",
+            "date": "2018",
+            "thumbnail": "https://i.imgur.com/XPjPdpt.png",
+            "language": "Java",
+            "video": "",
+            "libraries": ["Swing"],
+            "about": "The project was creating in the summer of 2018. I created a custom physics engine to simulate gravity. Planet data was recorded to try and get an accurate simulation",
+            "github": "https://github.com/sambolinski/2d-planetary-orbit-simulator"
+        },
+        {
+            "title": "2D platformer game",
+            "date": "2017",
+            "thumbnail": "https://i.imgur.com/uUAa3tu.png",
+            "language": "Java",
+            "video": "https://www.youtube.com/embed/3OV-glulMQ4",
+            "libraries": ["JBox2D"],
+            "about": "This project was coursework for my Java course in my first year of university. It uses Java, Swing and JBox2D.",
+            "github": "https://github.com/sambolinski/2d-platformer"
+        },
+        {
+            "title": "2D Puzzle",
+            "date": "2019",
+            "thumbnail": "https://i.imgur.com/lWAKywG.png",
+            "language": "Java",
+            "video": "",
+            "libraries": ["Swing"],
+            "about": "Recreation of a puzzle from 'Puzzle Agent 2' made in Java.",
+            "github": "https://github.com/sambolinski/Kings-Challenge"
+        },
+        {
+            "title": "Map Simulation Test",
+            "date": "2019",
+            "thumbnail": "https://i.imgur.com/5Vdc2FO.png",
+            "language": "Java",
+            "video": "",
+            "libraries": [],
+            "about": "A test of a historical political map from 800ad, the user can click on towns to change the map.",
+            "github": ""
+        },
+        {
+            "title": "Boolean Algebra Converter",
+            "date": "2017",
+            "thumbnail": "https://i.imgur.com/RYG776i.png",
+            "language": "Python",
+            "video": "",
+            "libraries": ["Tkinter"],
+            "about": "This project is my A-Level coursework. The user can input Boolean Algebra, the software can convert this to a truth table and/or a logic circuit.",
+            "github": "https://github.com/sambolinski/boolean-algebra-converter"
+        }
+    ],
+    "sandbox":[    
+        {
+            "title": "Mandelbrot",
+            "date": "2020",
+            "thumbnail": "",
+            "language": ""
+        }
+    ],
+    "renders":[    
+        {
+            "Titanic":[
+                {
+                    "title": "Titanic During Day",
+                    "date": "2019",
+                    "thumbnail": "https://i.imgur.com/nVRAf4D.jpg",
+                    "software": "Blender"
+                },
+                {
+                    "title": "Titanic Port List",
+                    "date": "2019",
+                    "thumbnail": "https://i.imgur.com/5Ge4M0E.jpg",
+                    "software": "Blender"
+                },      
+                {
+                    "title": "Titanic Lights Fail",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/Zd8m8KI.gif",
+                    "software": "Blender"
+                },      
+                {
+                    "title": "Titanic Alone In The Atlantic",
+                    "date": "2019",
+                    "thumbnail": "https://i.imgur.com/GBYJXqJ.png",
+                    "software": "Blender"
+                }
+
+            ]
+        },
+        {
+            "The War of the Worlds":[                     
+                {
+                    "title": "The Eve of The War",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/EiXWTJ0.png",
+                    "software": "Blender"
+                },                     
+                {
+                    "title": "Martian Model",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/cIQfaiX.png",
+                    "software": "Blender"
+                },                     
+                {
+                    "title": "Henrique Alvim Corréa Tripod Model",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/2S5JhAZ.jpg",
+                    "software": "Blender"
+                }
+
+            ]
+        },
+        {
+            "Scene Recreations":[   
+                {
+                    "title": "Arrival of Father Merrin",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/1P8blgS.png",
+                    "software": "Blender"
+                }
+
+            ]
+        },
+        {
+            "The Hunt":[           
+                {
+                    "title": "The Hunt",
+                    "date": "2020",
+                    "thumbnail": "https://i.imgur.com/owRZl8I.png",
+                    "software": "Blender"
+                }
+
+            ]
+        },
+        {
+            "Miscellaneous":[      
+                {
+                    "title": "Musket Early Render",
+                    "date": "2018",
+                    "thumbnail": "https://i.imgur.com/FUUjk2Q.jpg",
+                    "software": "Blender"
+                }
+            ]
+        }       
+        
+    ]
+}
