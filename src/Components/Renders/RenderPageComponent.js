@@ -7,7 +7,6 @@ class RenderPageComponent extends React.Component{
         super(props)
     }
     render(){
-        console.log(this.props)
         return(
             <AlbumContainer {...this.props} />
         );

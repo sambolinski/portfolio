@@ -35,7 +35,6 @@ class ThumbnailComponent extends React.Component{
         super(props);
     }
     render(){
-        console.log(this.props);
         return(            
             <Styles>
                 <div className="col-md-4">

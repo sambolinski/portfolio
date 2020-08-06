@@ -14,7 +14,6 @@ class AboutComponent extends React.Component{
         super(props);
     }
     render(){
-        console.log(this.props.data.transferableSkills)
         return (
             <Styles>
                 <div>

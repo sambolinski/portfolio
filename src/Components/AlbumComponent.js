@@ -31,7 +31,6 @@ class AlbumComponent extends React.Component{
         super(props);
     }
     render(){
-        console.log(this.props.data)
         return(
                 <div className="album py-5 bg-light" style={{width: "100%"}}>
                         <div className="row">
