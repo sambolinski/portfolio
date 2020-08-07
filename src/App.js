@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import ErrorPageContainer from "./Components/ErrorPageContainer"
 import Layout from "./Components/Layout"
 import NavigationBar from "./Components/NavigationBar"
@@ -33,17 +33,17 @@ class App extends React.Component{
           <NavigationBar/>
           <Jumbotron message = {this.state.message}/>
           <Layout>
-            <Router>
+            <HashRouter>
               <Switch>
-                <Route exact path = "portfolio/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "portfolio/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "portfolio/projects/" render={(props) => <ProjectPageContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "portfolio/projects/:id" render={(props) => <IndividualProjectContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "portfolio/renders/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> }/>
-                <Route exact path = "portfolio/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/projects/" render={(props) => <ProjectPageContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/projects/:id" render={(props) => <IndividualProjectContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/renders/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> }/>
+                <Route exact path = "/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route component={ErrorPageContainer} />
               </Switch>
-            </Router>
+            </HashRouter>
           </Layout>
         </React.Fragment>
     );

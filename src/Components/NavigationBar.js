@@ -23,13 +23,13 @@ class NavigationBar extends React.Component{
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Item>
-                                <Nav.Link href="/about/">About</Nav.Link>
+                                <Nav.Link href="#/about/">About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/projects/">Projects</Nav.Link>
+                                <Nav.Link href="#/projects/">Projects</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link href="/renders/">Renders</Nav.Link>
+                                <Nav.Link href="#/renders/">Renders</Nav.Link>
                             </Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
