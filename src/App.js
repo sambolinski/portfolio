@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ErrorPageContainer from "./Components/ErrorPageContainer"
 import Layout from "./Components/Layout"
 import NavigationBar from "./Components/NavigationBar"
@@ -33,7 +33,7 @@ class App extends React.Component{
           <NavigationBar/>
           <Jumbotron message = {this.state.message}/>
           <Layout>
-            <HashRouter>
+            <Router>
               <Switch>
                 <Route exact path = "/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route exact path = "/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
@@ -43,7 +43,7 @@ class App extends React.Component{
                 <Route exact path = "/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route component={ErrorPageContainer} />
               </Switch>
-            </HashRouter>
+            </Router>
           </Layout>
         </React.Fragment>
     );

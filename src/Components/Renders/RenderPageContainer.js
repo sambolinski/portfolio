@@ -7,7 +7,6 @@ class RenderPageContainer extends React.Component{
 
         this.state = {
             isGallery: true
-
         }
         this.currentData = [];
 
@@ -15,6 +14,7 @@ class RenderPageContainer extends React.Component{
     }
     
     updateData(newValue){
+        console.log(newValue);
         let tempData = JSON.parse(JSON.stringify(data.renders));
         let title = "";
         if(newValue === undefined){
@@ -38,6 +38,9 @@ class RenderPageContainer extends React.Component{
         this.forceUpdate();
     }
     componentDidMount(){
+        console.log(this.props.match.params.id)
+        
+        console.log(this.props)
         this.updateData(this.props.match.params.id);
     }
     render(){
