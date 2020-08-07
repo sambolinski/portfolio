@@ -35,12 +35,12 @@ class App extends React.Component{
           <Layout>
             <Router>
               <Switch>
-                <Route exact path = "/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "/projects/" render={(props) => <ProjectPageContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "/projects/:id" render={(props) => <IndividualProjectContainer updateMessage={this.updateMessage} {...props} /> } />
-                <Route exact path = "/renders/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> }/>
-                <Route exact path = "/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "portfolio/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "portfolio/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "portfolio/projects/" render={(props) => <ProjectPageContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "portfolio/projects/:id" render={(props) => <IndividualProjectContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "portfolio/renders/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> }/>
+                <Route exact path = "portfolio/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route component={ErrorPageContainer} />
               </Switch>
             </Router>
