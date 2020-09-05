@@ -37,9 +37,6 @@ class RenderPageContainer extends React.Component{
         this.props.updateMessage(title);
         this.forceUpdate();
     }
-    componentWillReceiveProps(nextProps){
-        this.updateData(nextProps.props.match.params.id);
-    }
     componentDidMount(){
         this.updateData(this.props.match.params.id);
     }
