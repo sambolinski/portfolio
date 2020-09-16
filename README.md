@@ -3,7 +3,7 @@
 ## About
 This website is made with React and Bootstrap to showcase some of my projects.
 ## React
-- Class ased React (Components and Containers)
+- Class based React (Components and Containers)
 - Styled Components
 - React-Router
 ## Bootstrap
