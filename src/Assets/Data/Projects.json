@@ -19,6 +19,26 @@
             "libraries": ["OpenGL", "GLFW", "GLM"],
             "about": "This engine was created to have a quick and easy setup for an OpenGL context as well as being able to quickly render primitives and custom shaders using GLSL. The engine currently has user input such as mouse movement and keyboard presses as well as a camera which can be controlled.The image for this is the Mandelbrot set as well as the corresponding Julia set and a particular location depending on mouse coordinates.",
             "github": "https://github.com/sambolinski/OpenGLRenderingEngine"
+        }, 
+        {
+            "title": "Pixel Planetary Simulation",
+            "date": "2020",
+            "thumbnail": "https://i.imgur.com/3cuVtdO.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OLCPixelGameEngine"],
+            "about": "This project is a remake of my Java 2D planetary orbit simulator using C++ and the olcPixelGameEngine. It features force applied physics to simulate gravitational pull between bodies. The planets can be displayed with their trails showing previous positions and velocity vectors. The camera uses WASD to move and it can also be locked to a body.",
+            "github": "https://github.com/sambolinski/PixelPlanetarySimulator"
+        },
+        {
+            "title": "Pixel Spring Physics Simulation",
+            "date": "2020",
+            "thumbnail": "https://i.imgur.com/PtxvkZT.png",
+            "language": "C++",
+            "video": "",
+            "libraries": ["OLCPixelGameEngine"],
+            "about": "This project is a 2D pixel simulation of spring connections between nodes. The original goal was to simulate rope, which was achieved vy connecting many nodes closely together. Properties such as tension and stretching can be shown. Furthermore, if a few nodes are connected it also simulates soft-body physics.",
+            "github": "https://github.com/sambolinski/SpringPhysics"
         },
         {
             "title": "OpenGL Racing Game",
