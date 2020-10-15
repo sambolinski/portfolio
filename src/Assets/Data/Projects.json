@@ -23,7 +23,7 @@
         {
             "title": "Pixel Planetary Simulation",
             "date": "2020",
-            "thumbnail": "https://i.imgur.com/3cuVtdO.png",
+            "thumbnail": "https://i.imgur.com/3PnfKVY.gif",
             "language": "C++",
             "video": "",
             "libraries": ["OLCPixelGameEngine"],
@@ -33,7 +33,7 @@
         {
             "title": "Pixel Spring Physics Simulation",
             "date": "2020",
-            "thumbnail": "https://i.imgur.com/PtxvkZT.png",
+            "thumbnail": "https://i.imgur.com/dguoYyk.gif",
             "language": "C++",
             "video": "",
             "libraries": ["OLCPixelGameEngine"],
