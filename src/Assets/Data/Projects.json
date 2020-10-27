@@ -17,7 +17,7 @@
             "language": "C++",
             "video": "",
             "libraries": ["OpenGL", "GLFW", "GLM"],
-            "about": "This engine was created to have a quick and easy setup for an OpenGL context as well as being able to quickly render primitives and custom shaders using GLSL. The engine currently has user input such as mouse movement and keyboard presses as well as a camera which can be controlled.The image for this is the Mandelbrot set as well as the corresponding Julia set and a particular location depending on mouse coordinates.",
+            "about": "This engine was created to have a quick and easy setup for an OpenGL context as well as being able to quickly render primitives and custom shaders using GLSL. The engine currently has user input such as mouse movement and keyboard presses as well as a camera which can be controlled. The image for this is the Mandelbrot set as well as the corresponding Julia set and a particular location depending on mouse coordinates.",
             "github": "https://github.com/sambolinski/OpenGLRenderingEngine"
         }, 
         {
@@ -37,7 +37,7 @@
             "language": "C++",
             "video": "",
             "libraries": ["OLCPixelGameEngine"],
-            "about": "This project is a 2D pixel simulation of spring connections between nodes. The original goal was to simulate rope, which was achieved vy connecting many nodes closely together. Properties such as tension and stretching can be shown. Furthermore, if a few nodes are connected it also simulates soft-body physics.",
+            "about": "This project is a 2D pixel simulation of spring connections between nodes. The original goal was to simulate rope, which was achieved by connecting many nodes closely together. Properties such as tension and stretching can be shown. Furthermore, if a few nodes are connected it also simulates soft-body physics.",
             "github": "https://github.com/sambolinski/SpringPhysics"
         },
         {
@@ -48,7 +48,7 @@
             "video": "",
             "libraries": ["OpenGL", "GLM"],
             "about": "This project was coursework for my 3D Graphics OpenGL module in my third year. We had to create a racing game which includes multiple primitives, 3D model imports, programatically generated tracks, multiple lights as well as instanced rendering and post-processing.",
-            "github": "https://github.com/sambolinski/FloodingSimulator"
+            "github": "https://github.com/sambolinski/GraphicsCoursework2020"
         },
         {
             "title": "Pixel Mandelbrot",
